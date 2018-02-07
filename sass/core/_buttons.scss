@@ -1,0 +1,42 @@
+// ========================================
+//
+// @file _buttons.scss
+// Button styles
+//
+// ========================================
+
+.adminimal {
+
+  .button {
+    border-radius: 5px;
+    &:hover {
+      border-color: $brand-primary-alt;
+    }
+  }
+
+  .form-actions {
+    .button {
+      padding: 7px 20px;
+    }
+  }
+
+  .button--primary {
+    background-color: $brand-primary;
+    border: 1px solid transparent;
+
+    &:hover,
+    &:focus {
+      background-color: $brand-secondary;
+    }
+  }
+
+  .action-links .button--primary {
+    border-color: $brand-primary-alt;
+    color: $brand-primary;
+    &:hover,
+    &:focus {
+      background-color: $brand-primary-alt;
+      color: $color-white;
+    }
+  }
+}

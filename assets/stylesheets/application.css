@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin-ext");
+.adminimal .button {
+  border-radius: 5px; }
+  .adminimal .button:hover {
+    border-color: #7e7cce; }
+
+.adminimal .form-actions .button {
+  padding: 7px 20px; }
+
+.adminimal .button--primary {
+  background-color: #3f0184;
+  border: 1px solid transparent; }
+  .adminimal .button--primary:hover, .adminimal .button--primary:focus {
+    background-color: #27084a; }
+
+.adminimal .action-links .button--primary {
+  border-color: #7e7cce;
+  color: #3f0184; }
+  .adminimal .action-links .button--primary:hover, .adminimal .action-links .button--primary:focus {
+    background-color: #7e7cce;
+    color: white; }
+
+a, button.link {
+  color: #5701b7; }
+  a:hover, button.link:hover {
+    color: #3f0184; }
+
+.adminimal thead th {
+  background-color: #f7f7f7; }
+
+.adminimal tbody tr:hover {
+  background: #fafafd; }
+
+input[type=checkbox]:checked {
+  background: #3f0184;
+  box-shadow: inset 0px 0px 0px 3px white; }
+
+.settings {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px 15px; }
+  .settings h3, .settings label, .settings legend, .settings .form-composite > legend {
+    font-weight: 600; }
+  .settings > h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #eeeeee;
+    font-size: 14px;
+    text-transform: uppercase; }
+  .settings > .form-wrapper {
+    margin-right: 20px; }
+    .settings > .form-wrapper:nth-child(2) {
+      -webkit-box-flex: 0;
+          -ms-flex: none;
+              flex: none; }
+    .settings > .form-wrapper:nth-child(3) {
+      -webkit-box-flex: 1;
+          -ms-flex: auto;
+              flex: auto; }
+    .settings > .form-wrapper > .form-item {
+      display: block; }
+    .settings > .form-wrapper > fieldset > legend {
+      margin-right: 20px; }
+    .settings > .form-wrapper > fieldset > .fieldset-wrapper {
+      margin-top: 5px; }
+      .settings > .form-wrapper > fieldset > .fieldset-wrapper .form-checkboxes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .settings > .form-wrapper > fieldset .form-item {
+      margin-right: 20px; }
+
+.settings > .fieldset-wrapper .field--widget-options-buttons > .fieldgroup {
+  width: 100%; }
+
+.js input.paragraph-type-add-modal-button:hover {
+  color: #3f0184; }
+
+/**
+ * @file toolbar.theme.css
+ */
+.adminimal-admin-toolbar {
+  font-family: "Open Sans", sans-serif; }
+  .adminimal-admin-toolbar .toolbar .toolbar-bar {
+    background-color: #150725;
+    color: white; }
+  .adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-item {
+    color: white; }
+  .adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-tab > .toolbar-item {
+    font-weight: 600; }
+  .adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-tab > .toolbar-item:hover,
+  .adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-tab > .toolbar-item:focus {
+    background-color: #200044; }
+  .adminimal-admin-toolbar .toolbar .toolbar-bar .toolbar-tab > .toolbar-item.is-active {
+    background-color: #200044; }
+  .adminimal-admin-toolbar .toolbar .toolbar-item {
+    cursor: pointer;
+    padding: 1em 1.3333em;
+    line-height: 1em;
+    text-decoration: none; }
+  .adminimal-admin-toolbar .toolbar .toolbar-item:hover,
+  .adminimal-admin-toolbar .toolbar .toolbar-item:focus {
+    text-decoration: none; }
+  .adminimal-admin-toolbar .toolbar .toolbar-tray {
+    background-color: #200044; }
+    .adminimal-admin-toolbar .toolbar .toolbar-tray .toolbar-menu a {
+      background-color: #200044;
+      color: #e5d6f6; }
+    .adminimal-admin-toolbar .toolbar .toolbar-tray .menu-item--expanded:hover > a,
+    .adminimal-admin-toolbar .toolbar .toolbar-tray .menu-item--expanded:hover > .toolbar-box {
+      background-color: #150725; }
+    .adminimal-admin-toolbar .toolbar .toolbar-tray.toolbar-tray-horizontal ul ul li.menu-item:first-child {
+      border-top-color: #7e7cce; }
+    .adminimal-admin-toolbar .toolbar .toolbar-tray.toolbar-tray-vertical .toolbar-menu a:hover, .adminimal-admin-toolbar .toolbar .toolbar-tray.toolbar-tray-vertical .toolbar-menu a:focus {
+      background-color: #150725; }
+    .adminimal-admin-toolbar .toolbar .toolbar-tray.toolbar-tray-vertical .menu-item--active-trail .toolbar-box a {
+      background-color: #150725; }
+  .adminimal-admin-toolbar .toolbar-toggle-orientation button {
+    background-color: #150725; }
+  .adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:before,
+  .adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:active:before,
+  .adminimal-admin-toolbar .toolbar-icon-admin-toolbar-tools-help:hover:before {
+    background-image: url("../images/cotailored-icon.svg");
+    background-repeat: no-repeat; }
+  .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:after {
+    content: '';
+    background-image: url("../images/chevron-white.svg");
+    background-repeat: no-repeat;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 10px;
+    width: 8px;
+    height: 12px; }
+  .adminimal-admin-toolbar .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:hover:after {
+    content: '';
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 5px; }
+
+.adminimal-admin-toolbar .level-1 .toolbar-handle.open,
+.adminimal-admin-toolbar .toolbar-tray-vertical .level-2 {
+  background-color: #150725 !important;
+  border-radius: 0; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-content:before {
+  background-image: url("../images/file.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-content:hover:before, .adminimal-admin-toolbar .toolbar-icon-system-admin-content.is-active:before {
+  background-image: url("../images/file-white.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-structure:before {
+  background-image: url("../images/orgchart.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-structure:hover:before, .adminimal-admin-toolbar .toolbar-icon-system-admin-structure.is-active:before {
+  background-image: url("../images/orgchart-white.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-themes-page:before {
+  background-image: url("../images/paintbrush.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-themes-page:hover:before, .adminimal-admin-toolbar .toolbar-icon-system-themes-page.is-active:before {
+  background-image: url("../images/paintbrush-white.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-modules-list:before {
+  background-image: url("../images/puzzlepiece.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-modules-list:hover:before, .adminimal-admin-toolbar .toolbar-icon-system-modules-list.is-active:before {
+  background-image: url("../images/puzzlepiece-white.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-config:before {
+  background-image: url("../images/wrench.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-config:hover:before, .adminimal-admin-toolbar .toolbar-icon-system-admin-config.is-active:before {
+  background-image: url("../images/wrench-white.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-entity-user-collection:before {
+  background-image: url("../images/people.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-entity-user-collection:hover:before, .adminimal-admin-toolbar .toolbar-icon-entity-user-collection.is-active:before {
+  background-image: url("../images/people-white.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-reports:before {
+  background-image: url("../images/barchart.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-icon-system-admin-reports:hover:before, .adminimal-admin-toolbar .toolbar-icon-system-admin-reports.is-active:before {
+  background-image: url("../images/barchart-white.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar-bar .toolbar-icon-user:before {
+  background-image: url("../images/person.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar .toolbar-toggle-orientation [value="vertical"]:before {
+  background-image: url("../images/push-left.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar .toolbar-toggle-orientation [value="horizontal"]:before {
+  background-image: url("../images/push-up.svg");
+  background-repeat: no-repeat; }
+
+.adminimal-admin-toolbar .toolbar .toolbar-toggle-orientation {
+  background-color: #27084a; }
+
+.adminimal-admin-toolbar .toolbar .toolbar-icon.toolbar-handle.open:before {
+  background-image: url(../images/chevron-disc-up.svg) !important; }
+
+.adminimal-admin-toolbar .toolbar-menu-administration ul {
+  margin: 0; }
+  .adminimal-admin-toolbar .toolbar-menu-administration ul li a {
+    background-color: #200044;
+    color: #e5d6f6; }
+    .adminimal-admin-toolbar .toolbar-menu-administration ul li a:hover {
+      background-color: #150725; }
+
+.adminimal .content-header {
+  margin-top: 10px; }
+
+/*# sourceMappingURL=../stylesheets/application.css.map */

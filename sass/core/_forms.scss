@@ -1,0 +1,11 @@
+// ========================================
+//
+// @file _forms.scss
+// Forms import file
+//
+// ========================================
+
+input[type=checkbox]:checked {
+  background: $brand-primary;
+  box-shadow: inset 0px 0px 0px 3px $color-white;
+}
