@@ -1,19 +1,23 @@
 {
-  "repositories": [
-  {
-      "type": "package",
-      "package": {
-          "name": "cotailored-adminal",
-          "version": "1.0",
-          "type": "drupal-theme",
-          "source": {
-              "url": "https://github.com/mitjakr/cotailored-adminal.git",
-              "type": "git",
-              "reference": "master"
-          }
-      }
-  }],
-  "require" : {
-    "cotailored-adminal": "1.0"
-  }
+    "name": "cotailored-adminal",
+    "version": "1.0",
+    "description": "Cotailored adminal",
+    "type": "drupal-theme",
+    "keywords": ["drupal", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mitja Krope",
+            "email": "mitja.krope@agiledrop.com",
+            "homepage": "http://agiledrop.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mitjakr/repo/issues"
+    },
+    "require": {
+        "agiledrop/cotailored-adminal": "dev-master"
+    },
+    "minimum-stability": "dev"
 }
