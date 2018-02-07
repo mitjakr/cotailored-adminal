@@ -1,5 +1,5 @@
 {
-    "name": "mitjakr/cotailored-adminal",
+    "name": "mitjakr/cotailored_adminal",
     "version": "1.0",
     "description": "Cotailored adminal",
     "type": "drupal-theme",
@@ -17,7 +17,7 @@
         "issues": "https://github.com/mitjakr/repo/issues"
     },
     "require": {
-        "mitjakr/cotailored-adminal": "dev-master"
+        "mitjakr/cotailored_adminal": "dev-master"
     },
     "minimum-stability": "dev"
 }
