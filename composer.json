@@ -17,7 +17,7 @@
         "issues": "https://github.com/mitjakr/repo/issues"
     },
     "require": {
-        "agiledrop/cotailored-adminal": "dev-master"
+        "mitjakr/cotailored-adminal": "dev-master"
     },
     "minimum-stability": "dev"
 }
