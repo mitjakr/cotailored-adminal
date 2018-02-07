@@ -1,0 +1,18 @@
+{
+  "repositories": [
+  {
+      "type": "package",
+      "package": {
+          "name": "cotailored-adminal",
+          "version": "1.0",
+          "source": {
+              "url": "https://github.com/mitjakr/cotailored-adminal.git", //git url
+              "type": "git",
+              "reference": "master"
+          }
+      }
+  }],
+  "require" : {
+    "cotailored-adminal": "1.0"
+  }
+}
